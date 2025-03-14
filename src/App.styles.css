@@ -1,0 +1,90 @@
+.App-dark{ 
+  background-color: black;
+  color: white;
+}
+
+.App-white{
+  background-color: white;
+  color: black;
+}
+
+.App{
+  height: 100%;
+}
+
+
+.App_titleContrast{
+  font-size: 30px;
+  color: blueviolet;
+}
+
+.App_title-dark{
+  color: white;
+  
+
+}
+
+.App_title-white{
+  color: black;
+  
+}
+
+.App_wrapperInput{
+  padding: 4px;
+  border-radius: 8px;
+  width: 500px;
+  height: 40px;
+}
+
+.App_wrapperInput-dark { 
+  border: 1px solid white;
+ 
+}
+
+.App_wrapperInput-white { 
+  border: 1px solid black;
+  
+}
+
+.App_wrapperInput  .App__input{
+  color: inherit;
+  outline: none;
+  margin: 0;
+  border: none;
+  padding: 0;
+  background: inherit;
+  width: 100%;
+  height: 100%;
+}
+
+.App_listMovies { 
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap:12px;
+  margin-top: 20px;
+  overflow-y: auto;
+  justify-content: space-between;
+}
+
+.App_wrapperMovies {
+  padding: 16px;
+}
+
+.App_wrapperMoviesStatus {
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.App_wrapperInput-dark {
+  background-color: black;
+  color: white;
+}
+
+.App_header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+}

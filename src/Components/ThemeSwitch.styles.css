@@ -1,0 +1,57 @@
+ .Switch_box {
+  padding: 4px;
+  border-radius: 15px;
+  width: 60px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+ }
+
+ .Switch_box-dark{
+  justify-content: flex-end;
+  border: 1px solid white;
+
+
+ }
+
+ .Switch_box-white{
+  border: 1px solid black;
+
+ }
+
+.Switch{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.Switch_checkbox{
+  display: none;
+
+}
+
+.Switch_round{
+  height: 22px;
+  width: 22px;
+  border-radius: 50%;
+}
+
+.Switch_round-dark{
+  background-color: white;
+}
+
+.Switch_round-white { 
+    background-color: black;
+  }
+
+
+  
+.Switch_text-dark{
+  color: white;
+}
+
+.Switch_text-white { 
+color: black;
+}

@@ -1,0 +1,12 @@
+
+.Card_movieImg{
+ width: 200px;
+ border-radius: 15px;
+}
+
+
+
+.cardMovie_info{
+    text-align: center;
+    word-wrap: wrap;
+}
